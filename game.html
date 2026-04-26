@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIFU-STORE</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <nav>
+        <!-- <img src="img/logo.jpeg" alt="avatar"> -->
+        <a class="logo" href="#">SHIFU<span>STORE</span></a>
+
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a class="active" href="game.html">GAME</a></li>
+            <li><a href="topup.html">TOP UP</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+        </ul>
+    </nav>
+    <div class="game-container">
+        <h2>Pilih Game</h2>
+        <div class="game-list">
+            <div class="game-card"><img src="img/valorant.jpg"><h3>Valorant</h3></div>
+            <div class="game-card"><img src="img/coc.jpg"><h3>Clash of Clans</h3></div>
+            <div class="game-card"><img src="img/ml.jpg"><h3>Mobile Legends</h3></div>
+            <div class="game-card"><img src="img/ff.jpg"><h3>Free Fire</h3></div>
+            <div class="game-card"><img src="img/pubg.jpg"><h3>PUBG Mobile</h3></div>
+            <div class="game-card"><img src="img/genshin.jpg"><h3>Genshin Impact</h3></div>
+            <div class="game-card"><img src="img/cod.jpg"><h3>Call of Duty</h3></div>
+            <div class="game-card"><img src="img/hok.jpg"><h3>Honor of Kings</h3></div>
+        </div>
+    </div>
+    <script>
+function toggleMenu() {
+    document.getElementById("menu").classList.toggle("active");
+}
+</script>
+</body>
+</html>
