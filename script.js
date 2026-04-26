@@ -26,5 +26,5 @@ if (sliderItems) {
              sliderActive++;
        }
 
-    }, 3000)
+    }, 2000)
 }
